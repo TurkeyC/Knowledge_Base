@@ -11,10 +11,17 @@
             "id": "48b77cacb9acbc0e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "type": "canvas",
+              "state": {
+                "file": "Calculus_KB/0_Meta/Disciplinary_Framework.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Disciplinary_Framework"
             }
           }
         ]
@@ -206,7 +213,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -225,6 +233,8 @@
   },
   "active": "48b77cacb9acbc0e",
   "lastOpenFiles": [
+    "Calculus_KB/Chapter13_Fourier_Series",
+    "Calculus_KB/Chapter12_Sequence_of_Functions_and_Functional_Series",
     "Calculus_KB/Chapter11_Numerical_Series",
     "Calculus_KB/Chapter10_Analytic_Geometry_in_Space_and_Vector_Algebra",
     "Calculus_KB/Chapter09_Ordinary_Differential_Equation",
@@ -234,10 +244,8 @@
     "Calculus_KB/Chapter05_Mean_Value_Theorem_for_Derivatives",
     "Calculus_KB/Chapter04_Derivatives_and_Differentials",
     "Calculus_KB/Chapter03_Continuity",
-    "Calculus_KB/Chapter02_Sequences_and_Function_Limits",
     "Log/Template使用方法/Templater基础.md",
     "Log/4.Obsidian的使用.md",
-    "Log/Template使用方法",
     "ceshi.md",
     "Template/ceshi1.md",
     "Log/5.具体示例.md",
