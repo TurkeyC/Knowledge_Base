@@ -1,5 +1,6 @@
 {
   "trashOption": "local",
   "newFileLocation": "current",
-  "showLineNumber": true
+  "showLineNumber": true,
+  "readableLineLength": true
 }
