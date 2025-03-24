@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4f23089b09fc3c95",
+        "id": "82dbff0b1c4e3f8a",
         "type": "tabs",
         "children": [
           {
-            "id": "716684e8cddd48a9",
+            "id": "e18c51b2b7b5aded",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -73,8 +73,19 @@
               "icon": "lucide-bookmark",
               "title": "书签"
             }
+          },
+          {
+            "id": "ded6064da3cda5cc",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {},
+              "icon": "ag-node-list",
+              "title": "Juggl nodes"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -174,6 +185,26 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "5aa4f0c3659fb47d",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {},
+              "icon": "ag-style",
+              "title": "Juggl style"
+            }
+          },
+          {
+            "id": "05e4f7de96c90712",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
           }
         ],
         "currentTab": 5
@@ -190,14 +221,24 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false,
+      "juggl:Juggl global graph": false,
+      "copilot:Open Copilot Chat": false
     }
   },
-  "active": "1d83d189031a2ecc",
+  "active": "ded6064da3cda5cc",
   "lastOpenFiles": [
-    "Log/3.原子化知识单元+分层聚合架构.md",
+    "Calculus_KB/0_Meta/Disciplinary_Framework.canvas",
     "Log/4.Obsidian的使用.md",
-    "Log/2.使用Markdown结合YAML Front Matter的方法.md",
-    "Log/1.将大学知识整理为AI训练的知识库.md"
+    "Calculus_KB/0_Meta/Disciplinary_Framework.md",
+    "Calculus_KB/0_Meta/Global_Index.md.md",
+    "Calculus_KB/0_Meta/Global_Index.md",
+    "Log/1.将大学知识整理为AI训练的知识库.md",
+    "Calculus_KB/0_Meta",
+    "Calculus_KB",
+    "Log/3.原子化知识单元+分层聚合架构.md",
+    "Log/2.使用Markdown结合YAML Front Matter的方法.md"
   ]
 }
