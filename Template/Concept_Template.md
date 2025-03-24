@@ -1,5 +1,5 @@
 <%*
-// 0_Meta/Template/Concept_Template.md
+// Template/Concept_Template.md
 tR += `---
 concept: "<% tp.file.title %>"
 semantic_id: "<% tp.file.folder(true).split('/').slice(1).join('-') %>-<% tp.date.now('YYYYMMDD') %>"

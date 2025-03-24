@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "fe3449fdbdd52fac",
+        "id": "6bde7fdd3905cbc3",
         "type": "tabs",
         "children": [
           {
-            "id": "098d7a2cc63bc6ac",
+            "id": "48b77cacb9acbc0e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ceshi.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "ceshi"
+              "title": "新标签页"
             }
           }
         ]
@@ -210,7 +206,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -227,14 +224,17 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "098d7a2cc63bc6ac",
+  "active": "48b77cacb9acbc0e",
   "lastOpenFiles": [
-    "ceshi.md",
-    "Template/temp.md",
-    "Template/Concept_Template.md",
+    "Log/Template使用方法/Templater基础.md",
     "Log/4.Obsidian的使用.md",
-    "Calculus_KB/Chapter01_",
+    "Log/Template使用方法",
+    "ceshi.md",
+    "Template/ceshi1.md",
     "Log/5.具体示例.md",
+    "Template/Concept_Template.md",
+    "Template/temp.md",
+    "Calculus_KB/Chapter01_",
     "Template",
     "示例知识库",
     "Calculus_KB/0_Meta/Disciplinary_Framework.canvas",
