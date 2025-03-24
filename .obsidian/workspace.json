@@ -206,8 +206,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -226,6 +225,8 @@
   },
   "active": "48b77cacb9acbc0e",
   "lastOpenFiles": [
+    "Calculus_KB/Chapter11_Numerical_Series",
+    "Calculus_KB/Chapter10_Analytic_Geometry_in_Space_and_Vector_Algebra",
     "Calculus_KB/Chapter09_Ordinary_Differential_Equation",
     "Calculus_KB/Chapter08_Improper_Integral",
     "Calculus_KB/Chapter07_Definite_Integral",
@@ -242,8 +243,6 @@
     "Log/5.具体示例.md",
     "Template/Concept_Template.md",
     "Template/temp.md",
-    "Calculus_KB/Chapter01_Real_Numbers_and_Supremum",
-    "Template",
     "Calculus_KB/0_Meta/Disciplinary_Framework.canvas",
     "Calculus_KB/0_Meta/Disciplinary_Framework.md",
     "Calculus_KB/0_Meta/Global_Index.md.md",
