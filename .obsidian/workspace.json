@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "741be1faef545060",
+        "id": "2b3b515b81301bc7",
         "type": "tabs",
         "children": [
           {
-            "id": "a3b9e9f0a41b175f",
+            "id": "697fc08f2e07521f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "GeneralPhysics_KB/Chapter01_Particle_Kinematics/Section04_相对运动/01.04.01_相对运动的概念及变换.md",
+                "mode": "preview",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "01.04.01_相对运动的概念及变换"
             }
           }
         ]
@@ -71,20 +75,39 @@
             }
           },
           {
-            "id": "ded6064da3cda5cc",
+            "id": "bb0fb11c6ef1490e",
             "type": "leaf",
             "state": {
-              "type": "juggl_nodes",
-              "state": {},
-              "icon": "ag-node-list",
-              "title": "Juggl nodes"
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          },
+          {
+            "id": "fe5731753fb7f659",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "d306b583781516e8",
@@ -128,46 +151,23 @@
             }
           },
           {
-            "id": "fe5731753fb7f659",
+            "id": "2e93d3eb043040ec",
             "type": "leaf",
             "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "标签"
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           },
           {
-            "id": "bb0fb11c6ef1490e",
+            "id": "92d25f7dc13c3c88",
             "type": "leaf",
             "state": {
-              "type": "outline",
-              "state": {
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "大纲"
-            }
-          },
-          {
-            "id": "6c7e224a152ac736",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "添加笔记属性"
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
             }
           },
           {
@@ -181,21 +181,49 @@
             }
           },
           {
-            "id": "2e93d3eb043040ec",
+            "id": "5714cdf587012e34",
             "type": "leaf",
             "state": {
-              "type": "git-view",
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "4cf4462fed650945",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://chat.qwen.ai/",
+                "title": "Qwen",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Qwen"
+            }
+          },
+          {
+            "id": "ded6064da3cda5cc",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "ag-node-list",
+              "title": "Juggl nodes"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 375.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,22 +235,32 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "templater-obsidian:Templater": false,
       "juggl:Juggl global graph": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "copilot:Open Copilot Chat": false
     }
   },
-  "active": "a3b9e9f0a41b175f",
+  "active": "2e93d3eb043040ec",
   "lastOpenFiles": [
+    "GeneralPhysics_KB/Chapter01_Particle_Kinematics/Section03_速度与加速度/01.03.01_位置矢量与位移的定义及计算.md",
+    "GeneralPhysics_KB/Chapter01_Particle_Kinematics/Section04_相对运动/01.04.01_相对运动的概念及变换.md",
+    "GeneralPhysics_KB/Chapter01_Particle_Kinematics/Section02_位置矢量与位移/01.02.01_位置矢量与位移的定义及计算.md",
+    "GeneralPhysics_KB/Chapter01_Particle_Kinematics/Section01_参考系与质点/01.01.01_质点与参考系的基本概念.md",
+    "GeneralPhysics_KB/Chapter01_Particle_Kinematics/Section02_位置矢量与位移/未命名.md",
+    "Calculus_KB/逆函数定理 (逆映射存在定理).md",
+    "Calculus_KB/压缩映射原理(不动点定理).md",
+    "Calculus_KB/多元函数微分中值定理（次平均定理）.md",
+    "GeneralPhysics_KB/Chapter01_Particle_Kinematics/未命名.md",
+    "GeneralPhysics_KB/Chapter01_Particle_Kinematics/Section04_相对运动",
+    "GeneralPhysics_KB/Chapter01_Particle_Kinematics/Section03_速度与加速度",
+    "GeneralPhysics_KB/Chapter01_Particle_Kinematics/Section02_位置矢量与位移",
+    "GeneralPhysics_KB/Chapter01_Particle_Kinematics/Section01_参考系与质点",
+    "GeneralPhysics_KB/Chapter06_Kinetic_Theory_of_Gases",
+    "GeneralPhysics_KB/Chapter05_Special_Relativity",
+    "GeneralPhysics_KB/Chapter04_Fluid_Motion",
+    "GeneralPhysics_KB/Chapter03_Torque_and_Rigid_Body_Rotation",
+    "GeneralPhysics_KB/Chapter02_Newton's_Laws_of_Motion",
+    "GeneralPhysics_KB/Chapter01_Particle_Kinematics",
     "Test note.md",
-    "obsidian-git/main.js",
-    "obsidian-git/manifest.json",
-    "obsidian-git/styles.css",
-    "obsidian-git/data.json",
-    "obsidian-git",
-    "obsidian-git_____bak/styles.css",
-    "obsidian-git_____bak/obsidian_askpass.sh",
-    "obsidian-git_____bak/manifest.json",
-    "obsidian-git_____bak/main.js",
-    "obsidian-git_____bak/data.json",
     "Log/4.Obsidian的使用.md",
     "ceshi.md",
     "Log/Template使用方法/Templater基础.md",
@@ -239,9 +277,6 @@
     "Log/5.具体示例.md",
     "Calculus_KB/0_Meta/Disciplinary_Framework.md",
     "Calculus_KB/0_Meta/Global_Index.md.md",
-    "Calculus_KB/0_Meta/Global_Index.md",
-    "Log/1.将大学知识整理为AI训练的知识库.md",
-    "Log/3.原子化知识单元+分层聚合架构.md",
-    "Log/2.使用Markdown结合YAML Front Matter的方法.md"
+    "Calculus_KB/0_Meta/Global_Index.md"
   ]
 }

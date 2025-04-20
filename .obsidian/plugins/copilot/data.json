@@ -14,8 +14,8 @@
   "googleApiKey": "",
   "openRouterAiApiKey": "",
   "defaultChainType": "llm_chain",
-  "defaultModelKey": "LM Studio|lm-studio",
-  "embeddingModelKey": "text-embedding-3-small|openai",
+  "defaultModelKey": "glm-4-flash|3rd party (openai-format)",
+  "embeddingModelKey": "BAAI/bge-m3|3rd party (openai-format)",
   "temperature": 0.1,
   "maxTokens": 1000,
   "contextTurns": 15,
@@ -34,8 +34,8 @@
   "chatNoteContextPath": "",
   "chatNoteContextTags": [],
   "enableIndexSync": true,
-  "debug": false,
-  "enableEncryption": false,
+  "debug": true,
+  "enableEncryption": true,
   "maxSourceChunks": 3,
   "groqApiKey": "",
   "mistralApiKey": "",
@@ -46,9 +46,11 @@
       "enabled": false,
       "isBuiltIn": true,
       "core": true,
+      "plusExclusive": true,
       "capabilities": [
         "vision"
-      ]
+      ],
+      "apiKey": ""
     },
     {
       "name": "gpt-4o",
@@ -58,7 +60,8 @@
       "core": true,
       "capabilities": [
         "vision"
-      ]
+      ],
+      "apiKey": ""
     },
     {
       "name": "gpt-4o-mini",
@@ -68,7 +71,8 @@
       "core": true,
       "capabilities": [
         "vision"
-      ]
+      ],
+      "apiKey": ""
     },
     {
       "name": "claude-3-5-sonnet-latest",
@@ -78,7 +82,8 @@
       "core": true,
       "capabilities": [
         "vision"
-      ]
+      ],
+      "apiKey": ""
     },
     {
       "name": "o1-mini",
@@ -87,7 +92,8 @@
       "isBuiltIn": true,
       "capabilities": [
         "reasoning"
-      ]
+      ],
+      "apiKey": ""
     },
     {
       "name": "o3-mini",
@@ -96,25 +102,29 @@
       "isBuiltIn": true,
       "capabilities": [
         "reasoning"
-      ]
+      ],
+      "apiKey": ""
     },
     {
       "name": "claude-3-5-haiku-latest",
       "provider": "anthropic",
       "enabled": false,
-      "isBuiltIn": true
+      "isBuiltIn": true,
+      "apiKey": ""
     },
     {
       "name": "command-r",
       "provider": "cohereai",
       "enabled": false,
-      "isBuiltIn": true
+      "isBuiltIn": true,
+      "apiKey": ""
     },
     {
       "name": "command-r-plus",
       "provider": "cohereai",
       "enabled": false,
-      "isBuiltIn": true
+      "isBuiltIn": true,
+      "apiKey": ""
     },
     {
       "name": "gemini-2.0-pro-exp",
@@ -123,7 +133,8 @@
       "isBuiltIn": true,
       "capabilities": [
         "vision"
-      ]
+      ],
+      "apiKey": ""
     },
     {
       "name": "gemini-2.0-flash",
@@ -132,25 +143,41 @@
       "isBuiltIn": true,
       "capabilities": [
         "vision"
-      ]
+      ],
+      "apiKey": ""
     },
     {
       "name": "azure-openai",
       "provider": "azure openai",
       "enabled": false,
-      "isBuiltIn": true
+      "isBuiltIn": true,
+      "apiKey": ""
     },
     {
-      "name": "LM Studio",
+      "name": "glm-4-flash",
+      "provider": "3rd party (openai-format)",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "https://open.bigmodel.cn/api/paas/v4/",
+      "apiKey": "enc_desk_djEwlyYIV5V910pZeMqsHzoXyRPwqyFnrk28iQytSD4LWVVTKFK7+FwDum8UhKxZTqT82bzZq7QdKEPixzBnj8XotQLeNl3z+bCmng3dJVg=",
+      "isEmbeddingModel": false,
+      "capabilities": [],
+      "stream": true,
+      "displayName": "GLM-4-Flash"
+    },
+    {
+      "name": "qw2-vl-2b-i",
       "provider": "lm-studio",
       "enabled": true,
       "isBuiltIn": false,
       "baseUrl": "",
       "apiKey": "",
       "isEmbeddingModel": false,
-      "capabilities": [],
+      "capabilities": [
+        "vision"
+      ],
       "stream": true,
-      "displayName": "LM Studio"
+      "displayName": "Qwen2-VL-2b"
     }
   ],
   "activeEmbeddingModels": [
@@ -161,7 +188,9 @@
       "isBuiltIn": true,
       "isEmbeddingModel": true,
       "core": true,
-      "enableCors": false
+      "plusExclusive": true,
+      "enableCors": false,
+      "apiKey": ""
     },
     {
       "name": "copilot-plus-large",
@@ -170,9 +199,11 @@
       "isBuiltIn": true,
       "isEmbeddingModel": true,
       "core": true,
+      "plusExclusive": true,
       "believerExclusive": true,
       "dimensions": 1024,
-      "enableCors": false
+      "enableCors": false,
+      "apiKey": ""
     },
     {
       "name": "copilot-plus-multilingual",
@@ -181,7 +212,9 @@
       "isBuiltIn": true,
       "isEmbeddingModel": true,
       "core": true,
-      "dimensions": 512
+      "plusExclusive": true,
+      "dimensions": 512,
+      "apiKey": ""
     },
     {
       "name": "text-embedding-3-small",
@@ -189,35 +222,64 @@
       "enabled": true,
       "isBuiltIn": true,
       "isEmbeddingModel": true,
-      "core": true
+      "core": true,
+      "apiKey": ""
     },
     {
       "name": "text-embedding-3-large",
       "provider": "openai",
       "enabled": true,
       "isBuiltIn": true,
-      "isEmbeddingModel": true
+      "isEmbeddingModel": true,
+      "apiKey": ""
     },
     {
       "name": "embed-multilingual-light-v3.0",
       "provider": "cohereai",
       "enabled": true,
       "isBuiltIn": true,
-      "isEmbeddingModel": true
+      "isEmbeddingModel": true,
+      "apiKey": ""
     },
     {
       "name": "text-embedding-004",
       "provider": "google",
       "enabled": true,
       "isBuiltIn": true,
-      "isEmbeddingModel": true
+      "isEmbeddingModel": true,
+      "apiKey": ""
     },
     {
       "name": "azure-openai",
       "provider": "azure openai",
       "enabled": true,
       "isBuiltIn": true,
-      "isEmbeddingModel": true
+      "isEmbeddingModel": true,
+      "apiKey": ""
+    },
+    {
+      "name": "text-embedding-bge-m3",
+      "provider": "lm-studio",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "",
+      "apiKey": "",
+      "isEmbeddingModel": true,
+      "capabilities": [],
+      "displayName": "Bge-m3",
+      "enableCors": true
+    },
+    {
+      "name": "BAAI/bge-m3",
+      "provider": "3rd party (openai-format)",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "https://api.siliconflow.cn/v1",
+      "apiKey": "enc_desk_djEwtEfUVG/X0LM26biiNMNBYYEm/j3NypbsVRXaKdD1T3sizIyUWT3G2fLUG2t3VAL0OczzCPagYqmqPt4IWa2MJhwyRBXU2iyJrTXpN3ZyyQ==",
+      "isEmbeddingModel": true,
+      "capabilities": [],
+      "displayName": "BAAI/bge-m3",
+      "enableCors": true
     }
   ],
   "embeddingRequestsPerMin": 90,

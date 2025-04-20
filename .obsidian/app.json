@@ -2,5 +2,8 @@
   "trashOption": "local",
   "newFileLocation": "current",
   "showLineNumber": true,
-  "readableLineLength": true
+  "readableLineLength": true,
+  "attachmentFolderPath": "./attachments",
+  "showUnsupportedFiles": true,
+  "newLinkFormat": "absolute"
 }
