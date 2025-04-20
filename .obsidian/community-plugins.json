@@ -1,11 +1,10 @@
 [
-  "obsidian-git",
   "dataview",
   "obsidian-latex-suite",
   "obsidian-excalidraw-plugin",
   "templater-obsidian",
-  "copilot",
   "juggl",
   "obsidian-outliner",
-  "obsidian-style-settings"
+  "obsidian-style-settings",
+  "obsidian-git"
 ]

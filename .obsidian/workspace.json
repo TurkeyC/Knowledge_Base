@@ -4,24 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "6bde7fdd3905cbc3",
+        "id": "741be1faef545060",
         "type": "tabs",
         "children": [
           {
-            "id": "48b77cacb9acbc0e",
+            "id": "a3b9e9f0a41b175f",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Calculus_KB/0_Meta/Disciplinary_Framework.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Disciplinary_Framework"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -155,13 +148,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Log/4.Obsidian的使用.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "4.Obsidian的使用 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -179,16 +171,6 @@
             }
           },
           {
-            "id": "5bb06b564d5f185d",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          },
-          {
             "id": "5aa4f0c3659fb47d",
             "type": "leaf",
             "state": {
@@ -199,59 +181,62 @@
             }
           },
           {
-            "id": "05e4f7de96c90712",
+            "id": "2e93d3eb043040ec",
             "type": "leaf",
             "state": {
-              "type": "copilot-chat-view",
+              "type": "git-view",
               "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "obsidian-git:Open Git source control": false,
       "templater-obsidian:Templater": false,
       "juggl:Juggl global graph": false,
-      "copilot:Open Copilot Chat": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "48b77cacb9acbc0e",
+  "active": "a3b9e9f0a41b175f",
   "lastOpenFiles": [
-    "Calculus_KB/Chapter13_Fourier_Series",
-    "Calculus_KB/Chapter12_Sequence_of_Functions_and_Functional_Series",
-    "Calculus_KB/Chapter11_Numerical_Series",
-    "Calculus_KB/Chapter10_Analytic_Geometry_in_Space_and_Vector_Algebra",
-    "Calculus_KB/Chapter09_Ordinary_Differential_Equation",
-    "Calculus_KB/Chapter08_Improper_Integral",
-    "Calculus_KB/Chapter07_Definite_Integral",
-    "Calculus_KB/Chapter06_Indefinite_Integral",
-    "Calculus_KB/Chapter05_Mean_Value_Theorem_for_Derivatives",
-    "Calculus_KB/Chapter04_Derivatives_and_Differentials",
-    "Calculus_KB/Chapter03_Continuity",
-    "Log/Template使用方法/Templater基础.md",
+    "Test note.md",
+    "obsidian-git/main.js",
+    "obsidian-git/manifest.json",
+    "obsidian-git/styles.css",
+    "obsidian-git/data.json",
+    "obsidian-git",
+    "obsidian-git_____bak/styles.css",
+    "obsidian-git_____bak/obsidian_askpass.sh",
+    "obsidian-git_____bak/manifest.json",
+    "obsidian-git_____bak/main.js",
+    "obsidian-git_____bak/data.json",
     "Log/4.Obsidian的使用.md",
     "ceshi.md",
-    "Template/ceshi1.md",
-    "Log/5.具体示例.md",
-    "Template/Concept_Template.md",
+    "Log/Template使用方法/Templater基础.md",
     "Template/temp.md",
+    "Template/Concept_Template.md",
+    "Template/ceshi1.md",
+    "Template/ccc.md",
+    "111.md",
+    "README.md",
+    "需要问的问题.md",
+    "Log/Template使用方法/Templater进阶.md",
+    "Calculus_KB/Chapter13_Fourier_Series/Section01_三角级数与Fourier级数/13.01.01_三角级数.md",
     "Calculus_KB/0_Meta/Disciplinary_Framework.canvas",
+    "Log/5.具体示例.md",
     "Calculus_KB/0_Meta/Disciplinary_Framework.md",
     "Calculus_KB/0_Meta/Global_Index.md.md",
     "Calculus_KB/0_Meta/Global_Index.md",

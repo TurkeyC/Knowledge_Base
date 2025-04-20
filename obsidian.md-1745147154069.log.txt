@@ -1,0 +1,30 @@
+app.js:1 Obsidian Developer Console
+plugin:obsidian-git:366 loading Git plugin: v2.32.1
+plugin:dataview:20478 Dataview: version 0.5.68 (requires obsidian 0.13.11)
+plugin:juggl:14 Loading Juggl
+plugin:obsidian-outliner:3354 Loading obsidian-outliner
+plugin:obsidian-git:133 Error: spawnSync C:\Program Files\Git\cmd ENOENT
+    at Object.spawnSync (node:internal/child_process:1123:20)
+    at spawnSync (node:child_process:892:24)
+    at Te.isGitInstalled (plugin:obsidian-git:133:1394)
+    at Te.setGitInstance (plugin:obsidian-git:131:132)
+    at Jd.init (plugin:obsidian-git:367:3246)
+    at eval (plugin:obsidian-git:366:29379)
+    at t.<anonymous> (app.js:1:2223660)
+    at app.js:1:239667
+    at Object.next (app.js:1:239772)
+    at a (app.js:1:238490)
+isGitInstalled @ plugin:obsidian-git:133
+plugin:obsidian-git:133 Error: spawnSync C:\Program Files\Git\cmd ENOENT
+    at Object.spawnSync (node:internal/child_process:1123:20)
+    at spawnSync (node:child_process:892:24)
+    at Te.isGitInstalled (plugin:obsidian-git:133:1394)
+    at Te.checkRequirements (plugin:obsidian-git:132:5499)
+    at Jd.init (plugin:obsidian-git:367:3321)
+isGitInstalled @ plugin:obsidian-git:133
+plugin:obsidian-git:378 obsidian-git: Error: Cannot run git command. Trying to run: 'C:\Program Files\Git\cmd' .
+    at Jd.displayError (plugin:obsidian-git:378:2860)
+    at Jd.init (plugin:obsidian-git:367:3374)
+displayError @ plugin:obsidian-git:378
+plugin:dataview:13006 Dataview: all 16 files have been indexed in 0.008s (16 cached, 0 skipped).
+plugin:obsidian-excalidraw-plugin:8 Initialized Excalidraw Image Cache
